@@ -285,8 +285,7 @@ the value changes.
 
 (require 'color nil t)
 
-(defun erm-darken-color (name)
-  (color-darken-name (face-attribute name :foreground) 20))
+(defun erm-darken-color (name) nil)
 
 (defun erm-define-faces ()
  (defface enh-ruby-string-delimiter-face
